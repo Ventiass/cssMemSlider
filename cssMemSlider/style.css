@@ -142,3 +142,24 @@ input[name='meme'] {
     font-size: 1.4rem;
     transition: all .6s ease;
 }
+
+@media (max-width: 768px)  {
+    .navigation {
+        align-items: center;
+        flex-direction: column;
+    }
+    .title-wrapper {
+        order: 2;
+        width: 100%;
+        padding: 0;
+    }
+    .title {
+        justify-content: center;
+    }
+    .doted {
+        margin-bottom: 4vh;
+    }
+    .slides {
+        height: 75%;
+    }
+}
