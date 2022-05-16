@@ -5,9 +5,36 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>memSlider</title>
-    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    
+    <div class="wrapper-slider">
+        <div class="slider">
+            <input type="radio" name="meme" id="meme1" checked>
+            <input type="radio" name="meme" id="meme2">
+            <input type="radio" name="meme" id="meme3">
+            <input type="radio" name="meme" id="meme4">
+            <div class="slides">
+                <div class="slide scroll"><img src="/assets/cats.jpg" alt="cats"></div>
+                <div class="slide"><img src="/assets/5.jpg" alt="5"></div>
+                <div class="slide"><img src="/assets/exc.jpg" alt="exc"></div>
+                <div class="slide"><img src="/assets/fun.jpg" alt="fun"></div>
+            </div>
+            <div class="navigation">
+                <div class="title-wrapper">
+                    <div class="title title-scroll">Не кормил кота</div>
+                    <div class="title">Про пятачка</div>
+                    <div class="title">Экскурсия</div>
+                    <div class="title">Друзья</div>
+                </div>
+                <div class="doted">
+                    <label for="meme1" class="circle"><span class="circle-dot circle-dot_1"></span></label>
+                    <label for="meme2" class="circle"><span class="circle-dot circle-dot_2"></span></label>
+                    <label for="meme3" class="circle"><span class="circle-dot circle-dot_3"></span></label>
+                    <label for="meme4" class="circle"><span class="circle-dot circle-dot_4"></span></label>
+                </div>
+            </div>
+        </div>
+    </div>  
 </body>
 </html>
